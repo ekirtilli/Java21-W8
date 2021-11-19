@@ -5,5 +5,13 @@
              version="3.0">
     <persistence-unit name="default">
 
+        <class>com.sau.db.Student</class>
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/ogr?serverTimezone=UTC"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value="Bsrcgn5757*"/>
+
+        </properties>
     </persistence-unit>
 </persistence>
