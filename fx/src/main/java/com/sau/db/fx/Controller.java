@@ -1,4 +1,4 @@
-package com.sau.fx;
+package com.sau.db.fx;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

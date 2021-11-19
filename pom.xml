@@ -7,6 +7,10 @@
     <groupId>org.example</groupId>
     <artifactId>p2</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+    <module>db</module>
+    <module>fx</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

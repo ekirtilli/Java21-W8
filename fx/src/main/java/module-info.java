@@ -3,6 +3,6 @@ module com.sau.fx {
     requires javafx.fxml;
 
 
-    opens com.sau.fx to javafx.fxml;
-    exports com.sau.fx;
+    opens com.sau.db.fx to javafx.fxml;
+    exports com.sau.db.fx;
 }
